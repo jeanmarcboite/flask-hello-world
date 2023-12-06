@@ -9,4 +9,4 @@ def hello_world():
 
 @app.route('/<user>')
 def hello_user(user):
-    return "Hello,  {user}!"
+    return f"Hello,  {user}!"
